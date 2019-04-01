@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".m1">
+
+    <TextView
+        android:id="@+id/textView79"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="113dp"
+        android:text="Mango Farming is the leading fruit crop farming of India and considered to be the king of fruits. Besides delicious taste, excellent flavour and attractive fragrance, it is rich in vitamin A and C.The tree is hardy in nature and requires comparatively low maintenance costs. Mango fruit is utilized at all stages of its development both in its immature and mature state. Raw fruits are used for making chutney, pickles and juices. The ripe fruits besides being used for desert are also utilized for preparing several products like squashes, syrups, nectar, jams and jellies. The mango kernel also contains 8-10 percent good quality fat which can be used for soap and also as a substitute for cola in confectionery. Mango occupies 22% of the total under fruits comprising of 1.2 million hectares, with a total production of 11 million tonnes. Uttar Pradesh and Andhra Pradesh , Telangana are having the largest area under mango each with around 25% of the total area followed by Bihar, Karnataka, Kerala and Tamil Nadu. Fresh mangoes and mango pulp are the important items of agri exports from India. India’s main export destinations for mango are USA and other Middle East countries with a limited quantity being shipped to European market. Although, India is the largest mango producing country, accounting about 60% of world production, the export of fresh fruit is limited to Alphonso and Dashehari varieties. India’s share in the world mango market is about 15 percent. Mango accounts for 40 percent of the total fruit exports from the country. There is good scope for increasing the area and productivity of mango in the country."
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="159dp"
+        android:text="Introduction"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView81"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"
+        android:text="Mango"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/mangonext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="71dp"
+        android:text="Next" />
+</RelativeLayout>

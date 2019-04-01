@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sugarcane">
+
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="17dp"
+        android:text="Introduction:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="362dp"
+        android:layout_height="263dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:text="Sugarcane  is  the  main  source  of  sugar  in  Asia  and
+Europe.  Sugarcane  isgrown primarily in the tropical and
+sub tropical zones of the southern hemisphere.
+Sugarcane is the raw material for  the production of white sugar, jaggery (gur) and khandsari. It is also used for
+chewing and extraction of juice for beverage purpose.
+There  are  about  nine States  in  India  where  sugarcane
+is  grown  on  a  large extent of area. There are a number of varieties that are grown in India depending on the
+suitability of the soil. The area, output and  yield and sugarcane cultivation is  subjected  to  fluctuate  in
+response  to  policies  of  the  government  and  also
+conditions  of  cultivation.  Taking  these  into consideration,detailed  discussion  on  the  cultivation
+practices of  sugarcane,  growth  of  area,output and yield." />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView24"
+        android:layout_marginTop="305dp"
+        android:text="Preparation of Land:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="276dp"
+        android:text="Plough  the  land  thrice  length  wise  and  breadth  wise  and  level  properly.Prepare furrows 25cm deep and
+75cm apart for short duration and 90cm apart for medium duration varieties. In hills tracts prepare pits in
+rows along the contour at spacing of 30cm in the row and 75cm between the rows. For mid late varieties, an
+inter row spacing of 75cm is recommended." />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView24"
+        android:layout_marginBottom="231dp"
+        android:text="Seed management:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="171dp"
+        android:text="For  control  of  fungus  diseases  like  red  rot,  dip  cut
+ends  of  setts  in  0.25% solution of copper based fungicide." />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView24"
+        android:layout_marginBottom="137dp"
+        android:text="Planting:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="73dp"
+        android:text="Plant setts end to end in the furrow, with the eye buds
+facing sideways and cover with soil. In the pit system, plant 2-3 setts in each pit." />
+
+    <TextView
+        android:id="@+id/tvsugarcanenext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:text="NEXT"
+        android:textSize="30sp" />
+</RelativeLayout>

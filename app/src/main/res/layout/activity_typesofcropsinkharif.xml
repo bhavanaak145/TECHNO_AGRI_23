@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kcrpeng">
+
+
+    <ImageView
+        android:id="@+id/farmer"
+        android:layout_width="wrap_content"
+        android:layout_height="251dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/farmer"/>
+
+
+    <ImageView
+        android:id="@+id/cereals"
+        android:layout_width="140dp"
+        android:layout_height="106dp"
+        android:layout_alignEnd="@+id/tvseedkharif"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="303dp"
+        android:src="@drawable/cerealskharif" />
+
+    <ImageView
+        android:id="@+id/cereals"
+        android:layout_width="140dp"
+        android:layout_height="106dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="51dp"
+        android:layout_marginEnd="37dp"
+        android:src="@drawable/quert" />
+
+    <ImageView
+        android:id="@+id/seed"
+        android:layout_width="158dp"
+        android:layout_height="107dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="186dp"
+        android:layout_marginStart="51dp"
+        android:src="@drawable/seedkharif" />
+
+
+    <TextView
+        android:id="@+id/tvkc"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="68dp"
+        android:text="Cereals"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/tvseedkharif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="209dp"
+        android:layout_marginEnd="18dp"
+        android:text="SeedPlants"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="292dp"
+        android:text="Tap on the Text !"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/query"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/tvkc"
+        android:layout_marginBottom="74dp"
+        android:text="Query Box ?"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>

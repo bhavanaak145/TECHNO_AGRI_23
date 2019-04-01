@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".w1">
+
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:text="Wheat "
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="149dp"
+        android:text="Introduction of Wheat"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="399dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="202dp"
+        android:text="Wheat is the main cereal crop and mainly a rabi (winter) season crop in India. Indian wheat is largely a medium protein,soft/medium hard, and white bread wheat. The major increase in the productivity of wheat has been observed in the states of Haryana,,Punjab, and UP. Higher area coverage is reported from Madhya Pradesh in recent years."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView74"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="333dp"
+        android:text="Soil requirement in Wheat Farming"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView75"
+        android:layout_width="match_parent"
+        android:layout_height="227dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="87dp"
+        android:text="Wheat is grown in wide range of soils in India. Soils with a loamy texture or clay loam, and moderate water holding capacity are best for wheat cultivation. Soil should be neutral in its reaction. Wheat sensitive to water logging, so heavy soils having good drainage are best suited for wheat farming.  Wheat can also be successfully cultivated on lighter soils by providing proper irrigation and required nutrients."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/wheatnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="54dp"
+        android:text="Next"
+        android:textSize="30sp" />
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".b1">
+
+    <TextView
+        android:id="@+id/textView82"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="Banana"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView83"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:text="Importance of Banana in India"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView84"
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="114dp"
+        android:text="Banana is one of the major and economically important fruit crop of India. Banana occupy 20% area among the total area under crop in India. Most of Banana is grown by planting suckers. The technology development in agriculture is very fast, it results in developing Tissue Culture Technique."
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView83"
+        android:layout_marginTop="206dp"
+        android:text="Suitable Climate for Banana Farming "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView86"
+        android:layout_width="match_parent"
+        android:layout_height="438dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView85"
+        android:text="Banana, basically a tropical crop, grows well in a temperature range of 15ºC – 35ºC with relative humidity of 75-85%. It prefers tropical humid lowlands and is grown from the sea level to an elevation of 2000m. above m.s.l.. In India this crop is being cultivated in climate ranging from humid tropical to dry mild subtropics through selection of appropriate varieties. Chilling injury occurs at temperature below 12ºC. High velocity of wind which exceeds 80 km /hr. damages the crop. Four months of monsoon (June to September) with an average 650-750 mm. rainfall are most important for vigorous vegetative growth of banana. At higher altitudes, banana cultivation is restricted to a few varieties like ‘Hill banana”. Deep, rich loamy soil with pH between 6.5 – 7.5 is most preferred for banana farming. Soil for banana should have good drainage, adequate fertility and moisture. Saline solid, calcareous soils are not suitable for banana cultivation. A soil which is neither too acidic nor too alkaline, rich in organic material with high nitrogen content, adequate phosphorus level and plenty of potash is good for banana."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/banananext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:text="Next"
+        android:textSize="30sp" />
+</RelativeLayout>

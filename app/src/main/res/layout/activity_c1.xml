@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".c1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="305dp"
+        android:background="@drawable/carrot" />
+
+    <TextView
+        android:id="@+id/textView87"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="316dp"
+        android:text="Introduction"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView88"
+        android:layout_width="match_parent"
+        android:layout_height="237dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="157dp"
+        android:text="Carrots are easy to grow in a garden with deep, loose soil; and as you may have guessed from the name, they are packed with beta carotene. A 1/2 cup serving gives you four times the Recommended Daily Allowance  of vitamin A in the form of beta carotene. Growing and harvesting carrots is a great way to take advantage of their nutritional benefits. Carrot Farming plays major role in Indian economy as it is major vegetable crop in India."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/cnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="104dp"
+        android:text="Next"
+        android:textSize="30sp" />
+
+</RelativeLayout>

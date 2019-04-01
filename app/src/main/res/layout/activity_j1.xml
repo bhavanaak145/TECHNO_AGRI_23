@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".j1">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="205dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/jowar"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView76"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="230dp"
+        android:text="Introduction of Jowar"
+        android:textSize="24sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="36dp" />
+
+    <TextView
+        android:id="@+id/textView77"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="87dp"
+        android:text="owar is one of the important food and fodder cereal crops cultivated across India, Sorghum popularly known as “Jowar” in India. The advantage of this cereal crop is that it can be cultivated in both Kharif and Rabi season. Jowar is the 5th most important cereal crop in the world after rice, wheat, maize and barley. The nutritional value of sorghum is same as of that of corn and that is why it is gaining importance as livestock feed. Sorghum (or) Jowar is also used for ethanol production, producing grain alcohol, starch production, production of adhesives and paper other than being used as food and feed for livestock. Jowar (or) Sorghum cultivation is gaining popularity due to its nature of extreme drought tolerance. Sorghum is very nutritious just like corn and can be used as green fodder, dry fodder, hay or silage."
+        android:textSize="18sp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/jowarnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="Next"
+        android:textSize="30sp" />
+</RelativeLayout>

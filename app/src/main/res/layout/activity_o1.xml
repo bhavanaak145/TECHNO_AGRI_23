@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".o1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="229dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/oats" />
+
+    <TextView
+        android:id="@+id/textView89"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="247dp"
+        android:text="OATS"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView90"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="288dp"
+        android:text="Introduction of Oats"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView91"
+        android:layout_width="match_parent"
+        android:layout_height="206dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="210dp"
+        android:text="Oat is primarily cultivated for fodder crop as well as grain crop. The cultivation practices are similar to wheat farming. Oats belong to the family of Poaceae (alt. Gramineae). Oats were orginated from Mediterranean region. Recently they became very popular due their health benefits. Oats botanical name is Avena sativa L and belongs to tribe of Poeae. Oat meal is most famous food made out of oats."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView92"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView91"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-210dp"
+        android:text="Land Preparation in Oats Cultivation"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView93"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="103dp"
+        android:text="Land should be made weed free from previous planting or crop and it should be ploughed 6 to 7 times to achieve fine tilth stage."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/oatsnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp"
+        android:text="Next "
+        android:textSize="30sp" />
+
+
+</RelativeLayout>

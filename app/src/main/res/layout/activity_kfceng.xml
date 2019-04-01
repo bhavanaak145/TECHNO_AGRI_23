@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kfceng">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/findcereals" />
+
+
+    <ImageView
+        android:layout_width="176dp"
+        android:layout_height="147dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="74dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/sugarcane"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="285dp"
+        android:layout_marginEnd="12dp"
+        android:src="@drawable/bajara"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="12dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="190dp"
+        android:text="Cereals"
+        android:textColor="@color/colorAccent"
+        android:textSize="36sp"
+        android:layout_marginLeft="126dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/tvbajara"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="334dp"
+        android:layout_marginStart="46dp"
+        android:text="Bajra"
+        android:textSize="30sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="46dp" />
+
+    <TextView
+        android:id="@+id/tvcrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="140dp"
+        android:layout_marginEnd="49dp"
+        android:text="Sugarcane"
+        android:textSize="30sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="49dp" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="272dp"
+        android:text="Tap on Texr to Select !"
+        android:textSize="18sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="96dp" />
+</RelativeLayout>

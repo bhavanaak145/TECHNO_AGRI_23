@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nut2">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="289dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/pesti" />
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="327dp"
+        android:text="Types of Pesticides "
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView45"
+        android:layout_marginBottom="318dp"
+        android:text="1.Buprofesin"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="265dp"
+        android:text="2.Carbamate"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="197dp"
+        android:text="3.Organophosphate"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="136dp"
+        android:text="4.Pyrethroids"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/etb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="64dp"
+        android:layout_marginStart="21dp"
+        android:ems="10"
+        android:hint="Enter farm Size in Hecter"
+        android:inputType="textPersonName"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvcal"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etb"
+        android:layout_marginStart="-56dp"
+        android:layout_toEndOf="@+id/a"
+        android:text="Calulate growth !"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvpdg"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="19dp"
+        android:layout_marginStart="72dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvpdg"
+        android:layout_alignEnd="@+id/a"
+        android:text="Predicted Growth *"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView94"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/tvpdg"
+        android:layout_marginStart="108dp"
+        android:text="kg" />
+
+
+</RelativeLayout>

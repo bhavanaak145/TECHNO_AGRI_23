@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bajara2">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="33dp"
+        android:text="Sowing"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="372dp"
+        android:layout_height="122dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp"
+        android:text="Sowing time :- Most appropriate time of sowing is middle
+or last week of July.
+Seed rate and Spacing:-
+4-5 kg/ha for drilling method
+2.5-3 kg/ha for dibbling method
+spacing 40 –45 cm between rows, 10 –15 cm within rows." />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_marginTop="200dp"
+        android:text="Irrigation:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="361dp"
+        android:layout_height="129dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_marginTop="233dp"
+        android:text="Bajra is grown rainfed and crop being drought resistant
+hardly needs any irrigation, however it is observed that the
+yield may be significantly increased by irrigating the crop at critical growth stages like maximum tillering,
+flowering and grain filling stage. Therefore light
+irrigations and efficient drainage is very essential for bajra production." />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_marginBottom="351dp"
+        android:text="Harvesting and Yielding:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="362dp"
+        android:layout_height="263dp"
+        android:layout_alignEnd="@+id/textView19"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="79dp"
+        android:text="Harvesting and threshing:
+The crop is harvested when grains become hard enough
+and contain moisture. Two methods are adopted for
+harvesting the crop Cutting earhead
+i) from standing crop followed by cutting of remaining
+   plants later
+ii) Cutting of entire plants by sticks and stalking the plants
+    for five days in sun for obtaining grains. Grains are
+    separated either by beating the earheads with sticks or
+    by trampling the earheads under bullock feet.
+Yield:
+Irrigated crop yields 30-35 quintals/ha, while
+unirrigated crop yield 12-15 quintals/ha" />
+
+    <TextView
+        android:id="@+id/tvbn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp"
+        android:text="Next "
+        android:textSize="24sp" />
+</RelativeLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shagun.techno_agri_23"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="28" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.shagun.techno_agri_23.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.shagun.techno_agri_23.logineng"
+            android:label="@string/title_activity_logineng" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.loginmar"
+            android:label="@string/title_activity_loginmar" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.signupenglish"
+            android:label="@string/title_activity_signupenglish" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.seasoneng"
+            android:label="@string/title_activity_seasoneng" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.rabieng"
+            android:label="@string/title_activity_rabieng" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.zaideng"
+            android:label="@string/title_activity_zaideng" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.kfceng"
+            android:label="@string/title_activity_kfceng" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.bajara"
+            android:label="@string/title_activity_bajara" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.bajara2"
+            android:label="@string/title_activity_bajara2" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.sugarcane"
+            android:label="@string/title_activity_sugarcane" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.muskmeloan"
+            android:label="@string/title_activity_muskmeloan" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.sugarcanenext"
+            android:label="@string/title_activity_sugarcanenext" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.sugar1"
+            android:label="@string/title_activity_sugar1" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.District"
+            android:label="@string/title_activity_district" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.bajra3"
+            android:label="@string/title_activity_bajra3" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.seedp"
+            android:label="@string/title_activity_seedp" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.bean"
+            android:label="@string/title_activity_bean" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.nut"
+            android:label="@string/title_activity_nut" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.nut2"
+            android:label="@string/title_activity_nut2" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.nut1"
+            android:label="@string/title_activity_nut1" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.bean2"
+            android:label="@string/title_activity_bean2" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.veg"
+            android:label="@string/title_activity_veg" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.tomato"
+            android:label="@string/title_activity_tomato" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.quey"
+            android:label="@string/title_activity_quey" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.ktypes"
+            android:label="@string/title_activity_ktypes" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.typesofcropsinkharif"
+            android:label="@string/title_activity_typesofcropsinkharif" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.newtypes"
+            android:label="@string/title_activity_newtypes" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.newtypes1"
+            android:label="@string/title_activity_newtypes1" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.ck"
+            android:label="@string/title_activity_ck" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.spk"
+            android:label="@string/title_activity_spk" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.w1"
+            android:label="@string/title_activity_w1" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.j1"
+            android:label="@string/title_activity_j1" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.w2"
+            android:label="@string/title_activity_w2" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.j2"
+            android:label="@string/title_activity_j2" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.m1"
+            android:label="@string/title_activity_m1" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.m2"
+            android:label="@string/title_activity_m2" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.b1"
+            android:label="@string/title_activity_b1" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.b2"
+            android:label="@string/title_activity_b2" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.newtype2"
+            android:label="@string/title_activity_newtype2" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.c1"
+            android:label="@string/title_activity_c1" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.c2"
+            android:label="@string/title_activity_c2" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.o1"
+            android:label="@string/title_activity_o1" />
+        <activity
+            android:name="com.example.shagun.techno_agri_23.o2"
+            android:label="@string/title_activity_o2" />
+    </application>
+
+</manifest>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signupenglish">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="Register"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/et3namer"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:ems="10"
+        android:hint="Name :"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et4mobr"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="124dp"
+        android:ems="10"
+        android:hint="Mobile No :"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et11emailr"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:ems="10"
+        android:hint="Email id :"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/et5aadharr"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="182dp"
+        android:ems="10"
+        android:hint="Aadhar No :"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et6stater"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="312dp"
+        android:ems="10"
+        android:hint="State :"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/et7distr"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="326dp"
+        android:ems="10"
+        android:hint="District :"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/et8talr"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="261dp"
+        android:ems="10"
+        android:hint="Taluka :"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/et9usrnmr"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="204dp"
+        android:ems="10"
+        android:hint="Username :"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/et10passr"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="137dp"
+        android:ems="10"
+        android:hint="Password :"
+        android:inputType="textPersonName" />
+
+
+    <Button
+        android:id="@+id/btregeng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="71dp"
+        android:text="Register"
+        android:background="@drawable/button_background"/>
+
+    <TextView
+        android:id="@+id/tv2rl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:text="Already Registered ? Login !"
+        android:textSize="18sp" />
+
+
+
+
+</RelativeLayout>

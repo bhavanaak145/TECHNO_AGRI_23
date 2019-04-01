@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sugarcanenext">
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="24dp"
+        android:text="Ratoon crop:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"
+        android:text="Normally not more than two ratoon crops are
+recommended. Burn the trash after  spreading  uniformly
+in  the  area  immediately  after  harvest  of  the  previous
+crop.  Stubble  shaving  should be  done  with  a  sharp
+spade  wherever  the  canes  are not cut close to the ground." />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView32"
+        android:layout_marginTop="180dp"
+        android:text="Manuring of ratoon crop: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="214dp"
+        android:text="Ratoon crop requires a higher dose of nitrogen than the
+plant crop. An extra dose of 25% nitrogen is recommended.Manure  the  crop by  25th  and 75th
+days  after  harvest of  the previous  crop.Entire quantity  of  phosphorus, half  of  nitrogen  and potash  are  applied
+as  the  first dose and the remaining as the second dose. The first dose is in corporate into the soil by digging and
+the second dose applied around the clump and earthling up is done. Weeding is also done at this time. Irrigation is
+given as in plant crop." />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView32"
+        android:layout_marginBottom="335dp"
+        android:text="Water management:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="352dp"
+        android:layout_height="123dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView33"
+        android:layout_marginBottom="202dp"
+        android:text="Irrigate the  crop  8-10  times  depending  upon  the
+availability  of  rains.In Chittor area more number of irrigations will be necessary. In early growth periods,
+irrigate  the  crop  at  more  frequent  intervals.  However,  avoid  too  much  moisture and water stagnation especially during germination and early growth phases." />
+
+    <TextView
+        android:id="@+id/tvsugarprod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="122dp"
+        android:text="Last 10 yrs Production !"
+        android:textSize="24sp" />
+</RelativeLayout>

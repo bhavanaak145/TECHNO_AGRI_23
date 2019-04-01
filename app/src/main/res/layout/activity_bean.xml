@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bean">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="212dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/soyabean" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:text="Soybean"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="287dp"
+        android:text="Introduction of Soybean"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="290dp"
+        android:text="Soybean is known as the “GOLDEN BEAN” and Soybeans belong to the legume crop  family and are basically native to East Asia. It’s botanical name is “Glycine max “  Soybean is an exceptionally nutritive and very rich protein food. Soybean oil is one of the most popular edible oil used in India. Soya also used as milk product and available in the form of soya chunks which is also called “meal maker” in India." />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="274dp"
+        android:text="Agro-Climatic conditions for Soybean farming"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="match_parent"
+        android:layout_height="131dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="135dp"
+        android:text="oybean thrives well in warm and moist climate. A temperature of 26 to 32°C appears to be the ideal for most of the varieties of soybean. Soil temperatures of 16°C or above support rapid germination and vigorous seedling growth in soybean farming. A lower temperature may cause to delay the flowering. Day length is the key factor in the soybean varieties as they are short day plants." />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView61"
+        android:layout_below="@+id/textView65"
+        android:layout_marginTop="-135dp"
+        android:text="Best season to grow Soybean"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="65dp"
+        android:text="Best season to plant soybean from 3rd week of June to mid of July." />
+
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:text="NEXT"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>

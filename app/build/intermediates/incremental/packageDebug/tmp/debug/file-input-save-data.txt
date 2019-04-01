@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sat Mar 16 11:29:11 IST 2019
+0.baseType=DIRECTORY
+0.base=/home/shagun/AndroidStudioProjects/TECHNO_AGRI_23/app/build/intermediates/transforms/dexMerger/debug/0
+0.path=classes.dex
+0.set=DEX
+count=1

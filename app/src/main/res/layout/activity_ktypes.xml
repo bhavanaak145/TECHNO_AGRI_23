@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ktypes">
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:text="Overview of Kharif Season Crops "
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="399dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="129dp"
+        android:text="In India, the kharif season varies by crop and state, with kharif starting at the earliest in May
+and ending at the latest in January, but is popularly considered to start in June and to end
+in October. Kharif stand in contrast with the Rabi
+crops,cultivated during the dry season. In Kharif season the seeds are sown in the beginning of the Monsoon season. After maturation these
+crops are harvested at the end of monsoon season(oct-Nov)."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="399dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="287dp"
+        android:text="These crops are dependent on the quantity of
+rain water as well its timing. Too much, too little or
+at the wrong time may lay waste the whole year's efforts."
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="126dp"
+        android:text="Rice is the most important kharif crop of India
+which is grown in rain fed areas with hot and humid
+climate, usually eastern and southern parts of
+India. Rice requires a temperature of 16oC to 20oC
+during the growing season and 18oC to 32oC
+during ripening. It needs rainfall from 150 to 200cm and needs a flooded field during the growth period. "
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
+        android:text="Next" />
+
+
+</RelativeLayout>

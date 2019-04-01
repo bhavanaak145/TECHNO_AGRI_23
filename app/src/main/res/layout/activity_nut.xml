@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nut">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="240dp"
+        android:text="Groundnut"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/groundnut" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="289dp"
+        android:text="Suitable Soil for Groundnut Farming :"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="232dp"
+        android:text="Groundnut is perfectly grown in a well-drained sandy loam, or sandy clay loam s oil. Deep well-drained soils with a pH of 6.5-7.0 and high fertility, are ideal for groundnut. An optimum soil temperature for good germination of groundnut is 30°C. Low temperature at sowing delays germination and increases seed and seedling diseases. Soil test must be done before starting a groundnut farming."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView51"
+        android:layout_marginBottom="198dp"
+        android:text="Sowing Preparation in Groundnut Farming :"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="51dp"
+        android:text="Plot design:When  testing for yield a n d quantitative characters, treatments are to be randomized and arranged in the plots in blocks. The plot size is four rows of 4m length, with 30 cm between rows and 10 cm between plants."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="76dp"
+        android:layout_height="36dp"
+        android:layout_below="@+id/textView54"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-51dp"
+        android:text="NEXT"
+        android:textSize="24sp" />
+</RelativeLayout>

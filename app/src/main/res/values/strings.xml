@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">TECHNO_AGRI_23</string>
+    <string name="title_activity_logineng">logineng</string>
+    <string name="title_activity_loginmar">loginmar</string>
+    <string name="title_activity_signupenglish">signupenglish</string>
+    <string name="title_activity_season">season</string>
+    <string name="title_activity_seasoneng">seasoneng</string>
+    <string name="title_activity_kharifeng">kharifeng</string>
+    <string name="title_activity_rabieng">rabieng</string>
+    <string name="title_activity_zaideng">zaideng</string>
+    <string name="title_activity_kcrpeng">kcrpeng</string>
+    <string name="title_activity_kfceng">kfceng</string>
+    <string name="title_activity_bajara">bajara</string>
+    <string name="title_activity_bajara2">bajara2</string>
+    <string name="title_activity_kffru">kffru</string>
+    <string name="title_activity_sugarcane">sugarcane</string>
+    <string name="title_activity_muskmeloan">muskmeloan</string>
+    <string name="title_activity_sugarcanenext">sugarcanenext</string>
+    <string name="title_activity_sugar1">sugar1</string>
+    <string name="title_activity_fruits">fruits</string>
+    <string name="Videos">
+        <a href="https://www.youtube.com/results?search_query=subhash+palekar">Videos</a>
+    </string>
+    <string name="title_activity_district">District</string>
+    <string name="title_activity_bajra3">bajra3</string>
+    <string name="title_activity_seedp">seedp</string>
+    <string name="title_activity_bean">bean</string>
+    <string name="title_activity_nut">nut</string>
+    <string name="title_activity_nut2">nut2</string>
+    <string name="title_activity_nut1">nut1</string>
+    <string name="title_activity_bean1">bean1</string>
+    <string name="title_activity_bean2">bean2</string>
+    <string name="title_activity_veg">veg</string>
+    <string name="title_activity_onion">onion</string>
+    <string name="title_activity_tomato">tomato</string>
+    <string name="title_activity_o1">o1</string>
+    <string name="title_activity_quey">quey</string>
+    <string name="title_activity_ktypes">ktypes</string>
+    <string name="title_activity_typesofcropsinkharif">typesofcropsinkharif</string>
+    <string name="title_activity_newtypes">newtypes</string>
+    <string name="title_activity_newtypes1">newtypes1</string>
+    <string name="title_activity_ck">ck</string>
+    <string name="title_activity_spk">spk</string>
+    <string name="title_activity_w1">w1</string>
+    <string name="title_activity_j1">j1</string>
+    <string name="title_activity_w2">w2</string>
+    <string name="title_activity_j2">j2</string>
+    <string name="title_activity_m1">m1</string>
+    <string name="title_activity_m2">m2</string>
+    <string name="title_activity_b1">b1</string>
+    <string name="title_activity_b2">b2</string>
+    <string name="title_activity_newtype2">newtype2</string>
+    <string name="title_activity_c1">c1</string>
+    <string name="title_activity_c2">c2</string>
+    <string name="title_activity_o2">o2</string>
+
+
+</resources>

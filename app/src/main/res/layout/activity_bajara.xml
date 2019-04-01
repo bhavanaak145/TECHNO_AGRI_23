@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bajara">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="159dp"
+        android:src="@drawable/bajara" />
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="170dp"
+        android:text="Introduction:"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView12"
+        android:layout_marginTop="332dp"
+        android:text="Climate and soil:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView17"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="The crop has a wide adaptability as it may grow under
+different day lengths, temperature and moisture stress.
+Most of the varieties developed in India are photosensitive
+which helps in growing the crop during monsoon, rabi and
+arid season. It requires low annual rainfall ranging
+between 40-50 cm and dry weather. The crop may tolerate
+drought but cannot withstand high rainfall of 90 cm or
+above. Light soils of low inherent fertility good drainage,
+mild salinity are best type for this crop. Crop does not tolerate soil acidity" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView12"
+        android:layout_marginBottom="176dp"
+        android:text="Land preparation:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="340dp"
+        android:layout_height="106dp"
+        android:layout_above="@+id/tvbajarac"
+        android:layout_alignStart="@+id/textView15"
+        android:text="The crop needs very fine tilt because the seeds are too
+small. 2-3 harrowings and a ploughing is followed so
+that a fine tilth may be obtained to facilitate the
+sowing and proper distribution of seed at appropriate depth. " />
+
+    <TextView
+        android:id="@+id/tvbajarac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="Next"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="353dp"
+        android:layout_height="122dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="201dp"
+        android:text="Bajra popularly known as Pearl millet, cattail millet or
+bulrush belongs to the family Graminea. The crop is
+cultivated for grain as well as for fodder in the arid region
+of Africa and Asia and as a pasture in U.S.A. It is
+originated in India or Africa. It is grown all over India
+except Assam and part of northeast India." />
+
+
+</RelativeLayout>

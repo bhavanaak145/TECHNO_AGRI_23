@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shagun.techno_agri_23">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".logineng"
+            android:label="@string/title_activity_logineng" />
+        <activity
+            android:name=".loginmar"
+            android:label="@string/title_activity_loginmar" />
+        <activity
+            android:name=".signupenglish"
+            android:label="@string/title_activity_signupenglish" />
+        <activity
+            android:name=".seasoneng"
+            android:label="@string/title_activity_seasoneng" />
+        <activity
+            android:name=".rabieng"
+            android:label="@string/title_activity_rabieng" />
+        <activity
+            android:name=".zaideng"
+            android:label="@string/title_activity_zaideng" />
+        <activity
+            android:name=".kfceng"
+            android:label="@string/title_activity_kfceng" />
+        <activity
+            android:name=".bajara"
+            android:label="@string/title_activity_bajara" />
+        <activity
+            android:name=".bajara2"
+            android:label="@string/title_activity_bajara2" />
+        <activity
+            android:name=".sugarcane"
+            android:label="@string/title_activity_sugarcane" />
+        <activity
+            android:name=".muskmeloan"
+            android:label="@string/title_activity_muskmeloan" />
+        <activity
+            android:name=".sugarcanenext"
+            android:label="@string/title_activity_sugarcanenext" />
+        <activity
+            android:name=".sugar1"
+            android:label="@string/title_activity_sugar1" />
+        <activity
+            android:name=".District"
+            android:label="@string/title_activity_district" />
+        <activity
+            android:name=".bajra3"
+            android:label="@string/title_activity_bajra3" />
+        <activity
+            android:name=".seedp"
+            android:label="@string/title_activity_seedp" />
+        <activity
+            android:name=".bean"
+            android:label="@string/title_activity_bean" />
+        <activity
+            android:name=".nut"
+            android:label="@string/title_activity_nut" />
+        <activity
+            android:name=".nut2"
+            android:label="@string/title_activity_nut2" />
+        <activity
+            android:name=".nut1"
+            android:label="@string/title_activity_nut1" />
+        <activity
+            android:name=".bean2"
+            android:label="@string/title_activity_bean2" />
+        <activity
+            android:name=".veg"
+            android:label="@string/title_activity_veg" />
+        <activity
+            android:name=".tomato"
+            android:label="@string/title_activity_tomato" />
+        <activity
+            android:name=".quey"
+            android:label="@string/title_activity_quey" />
+        <activity
+            android:name=".ktypes"
+            android:label="@string/title_activity_ktypes" />
+        <activity
+            android:name=".typesofcropsinkharif"
+            android:label="@string/title_activity_typesofcropsinkharif" />
+        <activity
+            android:name=".newtypes"
+            android:label="@string/title_activity_newtypes" />
+        <activity
+            android:name=".newtypes1"
+            android:label="@string/title_activity_newtypes1" />
+        <activity
+            android:name=".ck"
+            android:label="@string/title_activity_ck" />
+        <activity
+            android:name=".spk"
+            android:label="@string/title_activity_spk" />
+        <activity
+            android:name=".w1"
+            android:label="@string/title_activity_w1" />
+        <activity
+            android:name=".j1"
+            android:label="@string/title_activity_j1" />
+        <activity
+            android:name=".w2"
+            android:label="@string/title_activity_w2" />
+        <activity
+            android:name=".j2"
+            android:label="@string/title_activity_j2" />
+        <activity
+            android:name=".m1"
+            android:label="@string/title_activity_m1" />
+        <activity
+            android:name=".m2"
+            android:label="@string/title_activity_m2" />
+        <activity
+            android:name=".b1"
+            android:label="@string/title_activity_b1" />
+        <activity
+            android:name=".b2"
+            android:label="@string/title_activity_b2" />
+        <activity
+            android:name=".newtype2"
+            android:label="@string/title_activity_newtype2" />
+        <activity
+            android:name=".c1"
+            android:label="@string/title_activity_c1" />
+        <activity
+            android:name=".c2"
+            android:label="@string/title_activity_c2" />
+        <activity
+            android:name=".o1"
+            android:label="@string/title_activity_o1" />
+        <activity
+            android:name=".o2"
+            android:label="@string/title_activity_o2"></activity>
+    </application>
+
+</manifest>

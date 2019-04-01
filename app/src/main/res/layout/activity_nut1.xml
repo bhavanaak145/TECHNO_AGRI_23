@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nut1">
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="17dp"
+        android:text="Weed Control in Groundnut Farming :"
+        android:textSize="18sp"
+        tools:ignore="RtlCompat"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="52dp"
+        android:text="Weeds cause much damage to the groundnut crop during the first 45 days of its growth. The most critical period of weed competition is from 3-6 weeks after sowing. The average yield loss due to weeds is about 30 % ,whereas under poor management yield loss by weeds may be 60 %. Therefore, it is advantageous to mechanically and chemically control weeds during the initial 6 weeks of groundnut growth."
+        android:layout_alignParentLeft="true"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView57"
+        android:layout_below="@+id/textView48"
+        android:text="Harvesting in Groundnut Farming :"
+        android:textSize="18sp"
+        android:layout_alignLeft="@+id/textView57"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="match_parent"
+        android:layout_height="152dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="222dp"
+        android:text="Premature harvesting of groundnut pods lowers the yield, oil percent age, and quality of seeds. Delay in harvesting after physiological maturity can result in increased Aspergillus flavus infection, and aflatoxin contamination in pods/seeds, and many pods may be left in the soil due to weakening of pegs. The Spanish bunch varieties (nondormant types) start germinating if harvesting is delayed. Therefore, it is important to harvest at optimum maturity."
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView56"
+        android:layout_centerHorizontal="true"
+        android:text="There are three ways of harvesting in Groundnut Farming :"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="201dp"
+        android:text="    1. Apply sprinkler irrigation for an hour and manually pull the plants.
+    2. Provide a light surface irrigation 2 – 3 days before harvest a n d use a blade harrow that cuts the plant roots 1 2 – 1 5 cm below the soil surface. Then manually pull the plants.
+    3. When irrigation water is scarce, use a plow or tractor-driven digger to loosen the soil. Then manually remove the plants."
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView42"
+        android:layout_marginBottom="168dp"
+        android:text="Storage of Groundnut:"
+        android:textSize="18sp"
+        android:layout_alignLeft="@+id/textView42"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="53dp"
+        android:text="After cleaning and grading, store the dry pods in gunny bags and stack them up to 10 bags high in separated stacks so that air freely circulates among them . The bags should be piled on wooden planks to avoid damage from dampness. Dusting the bags with 5% Lindane® will protect the pods from many storage pests.
+"
+        android:layout_alignParentLeft="true"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/n1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView60"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="-53dp"
+        android:text="NEXT"
+        android:textSize="24sp"
+        android:layout_alignParentLeft="true"
+        tools:ignore="RtlCompat" />
+</RelativeLayout>

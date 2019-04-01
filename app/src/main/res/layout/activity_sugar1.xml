@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sugar1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="391dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/sugarcaneproductiondata" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="293dp"
+        android:layout_marginStart="28dp"
+        android:text="Farm Size: "
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/etareafarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView38"
+        android:layout_marginEnd="11dp"
+        android:ems="10"
+        android:hint="size in hectares"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tvarea"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView38"
+        android:layout_marginBottom="213dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="176dp"
+        android:layout_height="36dp"
+        android:layout_alignTop="@+id/tvarea"
+        android:layout_toEndOf="@+id/tvarea"
+        android:text="*predicted growth"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvcal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="129dp"
+        android:layout_marginStart="139dp"
+        android:text="Calculate"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="64dp"
+        android:layout_marginStart="164dp"
+        android:text="Videos"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView97"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvarea"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="109dp"
+        android:text="kg" />
+
+</RelativeLayout>
