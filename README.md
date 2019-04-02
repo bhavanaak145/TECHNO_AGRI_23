@@ -32,7 +32,7 @@ planting, as well as the conditions. Query Engine is used to ask a question.
  Required valid email id,Mobile No.\
  User should be able to login to the application by providing valid
 credentials only. Valid credentials include user name and password the
-same as used for register an account to the Mobile application.\
+same as used for register an account to the Mobile application.
 
 # REQUIREMENTS OF AN APPLICATION
  As we developed the flexible mobile application it supports the all
@@ -68,7 +68,7 @@ d) Calculate predicted growth.\
 Step 10: Enter the query if any in the query box/query engine.\
 Step 11: Store the query in database.\
 Step 12: Provide solution to user.\
-Step 13: Stop.\
+Step 13: Stop.
 # FUTURE SCOPE
  As we know that technology is growing rapidly, with the help of this
 application we have brought traditional farming and modern technology
@@ -77,8 +77,8 @@ application.\
  As the farmer will use the android application there will be updates of
 all the data required for them and the important part is it is a static
 application so no much amount will be spend on internet this will be a
-plus point\
- Growth will be increased\
+plus point.\
+ Growth will be increased.
 
 # CONCLUSION
 A huge source of information for all the types of crop production is
