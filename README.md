@@ -18,14 +18,14 @@ takes crops to grow varies greatly depending on the type and variety of
 planting, as well as the conditions. Query Engine is used to ask a question.
 
 # SPECIFICATION
- Android 7.0.1 used.
+ Android 7.0.1 used.\
  Supports Lollipop, Marshmellow, Nougat, Oreo, Pie versions of Android.
 
 # ADVANTAGES
- Human resource is saved.
- Water is saved.
- Improves growth.
- Information is available at your finger tips.
+ Human resource is saved.\
+ Water is saved.\
+ Improves growth.\
+ Information is available at your finger tips.\
 
 # REQUIREMENTS OF USER
  Computer, any smart phones and tablets, iphone and ipad.
